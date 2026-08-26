@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: connect-sup
+    runtime: static
+    buildCommand: echo "Connect Sup prêt"
+    staticPublishPath: .
