@@ -3,4 +3,4 @@ services:
     name: connect-sup
     runtime: static
     buildCommand: echo "Connect Sup prêt"
-    staticPublishPath: public
+    staticPublishPath: .
